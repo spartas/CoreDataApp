@@ -18,6 +18,7 @@
 		223F683417B57E890096E818 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223F683317B57E890096E818 /* Default@2x.png */; };
 		223F683617B57E890096E818 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223F683517B57E890096E818 /* Default-568h@2x.png */; };
 		223F683917B57E890096E818 /* CoreDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 223F683717B57E890096E818 /* CoreDataApp.xcdatamodeld */; };
+		223F684117B57FCC0096E818 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 223F684017B57FCC0096E818 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		223F683317B57E890096E818 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		223F683517B57E890096E818 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		223F683817B57E890096E818 /* CoreDataApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataApp.xcdatamodel; sourceTree = "<group>"; };
+		223F683F17B57FCC0096E818 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		223F684017B57FCC0096E818 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				223F682E17B57E890096E818 /* TWAppDelegate.h */,
 				223F682F17B57E890096E818 /* TWAppDelegate.m */,
 				223F683717B57E890096E818 /* CoreDataApp.xcdatamodeld */,
+				223F683F17B57FCC0096E818 /* Person.h */,
+				223F684017B57FCC0096E818 /* Person.m */,
 				223F682617B57E890096E818 /* Supporting Files */,
 			);
 			path = CoreDataApp;
@@ -175,6 +180,7 @@
 				223F682C17B57E890096E818 /* main.m in Sources */,
 				223F683017B57E890096E818 /* TWAppDelegate.m in Sources */,
 				223F683917B57E890096E818 /* CoreDataApp.xcdatamodeld in Sources */,
+				223F684117B57FCC0096E818 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
